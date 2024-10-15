@@ -1,5 +1,907 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
+<<<<<<< HEAD
+  <testsuite name="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\phpunit.xml" tests="25" assertions="1" errors="24" failures="0" skipped="0" time="0.135006">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.003767">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.003767">
+        <testcase name="test_that_true_is_true" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Unit\ExampleTest.php" line="12" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" assertions="1" time="0.003767"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="24" assertions="0" errors="24" failures="0" skipped="0" time="0.131239">
+      <testsuite name="Tests\Feature\Auth\AuthenticationTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php" tests="4" assertions="0" errors="4" failures="0" skipped="0" time="0.000000">
+        <testcase name="test_login_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php" line="13" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\AuthenticationTest::test_login_screen_can_be_rendered&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_users_can_authenticate_using_the_login_screen" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php" line="20" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\AuthenticationTest::test_users_can_authenticate_using_the_login_screen&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_users_can_not_authenticate_with_invalid_password" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php" line="33" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\AuthenticationTest::test_users_can_not_authenticate_with_invalid_password&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_users_can_logout" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php" line="45" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\AuthenticationTest::test_users_can_logout&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\EmailVerificationTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php" tests="3" assertions="0" errors="3" failures="0" skipped="0" time="0.000000">
+        <testcase name="test_email_verification_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php" line="16" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\EmailVerificationTest::test_email_verification_screen_can_be_rendered&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_email_can_be_verified" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php" line="25" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\EmailVerificationTest::test_email_can_be_verified&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_email_is_not_verified_with_invalid_hash" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php" line="44" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\EmailVerificationTest::test_email_is_not_verified_with_invalid_hash&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordConfirmationTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php" tests="3" assertions="0" errors="3" failures="0" skipped="0" time="0.000000">
+        <testcase name="test_confirm_password_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php" line="13" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordConfirmationTest::test_confirm_password_screen_can_be_rendered&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_password_can_be_confirmed" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php" line="22" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordConfirmationTest::test_password_can_be_confirmed&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_password_is_not_confirmed_with_invalid_password" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php" line="34" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordConfirmationTest::test_password_is_not_confirmed_with_invalid_password&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordResetTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php" tests="4" assertions="0" errors="4" failures="0" skipped="0" time="0.000000">
+        <testcase name="test_reset_password_link_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php" line="15" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordResetTest::test_reset_password_link_screen_can_be_rendered&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_reset_password_link_can_be_requested" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php" line="22" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordResetTest::test_reset_password_link_can_be_requested&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_reset_password_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php" line="33" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordResetTest::test_reset_password_screen_can_be_rendered&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_password_can_be_reset_with_valid_token" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php" line="50" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordResetTest::test_password_can_be_reset_with_valid_token&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordUpdateTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordUpdateTest.php" tests="2" assertions="0" errors="2" failures="0" skipped="0" time="0.000000">
+        <testcase name="test_password_can_be_updated" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordUpdateTest.php" line="14" class="Tests\Feature\Auth\PasswordUpdateTest" classname="Tests.Feature.Auth.PasswordUpdateTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordUpdateTest::test_password_can_be_updated&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_correct_password_must_be_provided_to_update_password" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordUpdateTest.php" line="34" class="Tests\Feature\Auth\PasswordUpdateTest" classname="Tests.Feature.Auth.PasswordUpdateTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordUpdateTest::test_correct_password_must_be_provided_to_update_password&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\RegistrationTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\RegistrationTest.php" tests="2" assertions="0" errors="2" failures="0" skipped="0" time="0.000000">
+        <testcase name="test_registration_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\RegistrationTest.php" line="12" class="Tests\Feature\Auth\RegistrationTest" classname="Tests.Feature.Auth.RegistrationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\RegistrationTest::test_registration_screen_can_be_rendered&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_new_users_can_register" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\RegistrationTest.php" line="19" class="Tests\Feature\Auth\RegistrationTest" classname="Tests.Feature.Auth.RegistrationTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\RegistrationTest::test_new_users_can_register&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\ExampleTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ExampleTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.131239">
+        <testcase name="test_the_application_returns_a_successful_response" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ExampleTest.php" line="13" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" assertions="0" time="0.131239">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\ExampleTest::test_the_application_returns_a_successful_response&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:365
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ExampleTest.php:15</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\ProfileTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" tests="5" assertions="0" errors="5" failures="0" skipped="0" time="0.000000">
+        <testcase name="test_profile_page_is_displayed" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="13" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\ProfileTest::test_profile_page_is_displayed&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_profile_information_can_be_updated" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="24" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\ProfileTest::test_profile_information_can_be_updated&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="46" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\ProfileTest::test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_user_can_delete_their_account" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="64" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\ProfileTest::test_user_can_delete_their_account&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+        <testcase name="test_correct_password_must_be_provided_to_delete_account" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="82" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.000000">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\ProfileTest::test_correct_password_must_be_provided_to_delete_account&#13;
+Illuminate\Database\QueryException: Database file at path [C:\xampp\htdocs\reciclaje\Reciclaje_Practica\database\database.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select exists (select 1 from sqlite_master where name = 'migrations' and type = 'table') as "exists")
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:398
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:344
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Connection.php:361
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Schema\SQLiteBuilder.php:44
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php:184
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:680
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:68
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:615
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\FreshCommand.php:67
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Util.php:43
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:95
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:35
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:690
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:213
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Command\Command.php:279
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Command.php:182
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:1029
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:316
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\symfony\console\Application.php:167
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Console\Application.php:163
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:426
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:331
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Testing\PendingCommand.php:532
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithConsole.php:87
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:66
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\RefreshDatabase.php:25
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:197
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithTestCaseLifecycle.php:91
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase.php:44</error>
+        </testcase>
+=======
   <testsuite name="C:\Users\VICTUS\Desktop\Reciclaje_Practica\phpunit.xml" tests="25" assertions="61" errors="0" failures="1" skipped="0" time="2.184285">
     <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.003730">
       <testsuite name="Tests\Unit\ExampleTest" file="C:\Users\VICTUS\Desktop\Reciclaje_Practica\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.003730">
@@ -127,6 +1029,7 @@ C:\Users\VICTUS\Desktop\Reciclaje_Practica\tests\Feature\Auth\RegistrationTest.p
         <testcase name="test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged" file="C:\Users\VICTUS\Desktop\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="46" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="4" time="0.034613"/>
         <testcase name="test_user_can_delete_their_account" file="C:\Users\VICTUS\Desktop\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="64" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="5" time="0.020756"/>
         <testcase name="test_correct_password_must_be_provided_to_delete_account" file="C:\Users\VICTUS\Desktop\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="82" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="5" time="0.030930"/>
+>>>>>>> 4ab31a52708cbf2fa8795e70fa676ac5d840ee86
       </testsuite>
     </testsuite>
   </testsuite>
