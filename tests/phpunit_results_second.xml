@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\phpunit.xml" tests="25" assertions="1" errors="24" failures="0" skipped="0" time="1.093350">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.007879">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.007879">
+        <testcase name="test_that_true_is_true" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Unit\ExampleTest.php" line="12" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" assertions="1" time="0.007879"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="24" assertions="0" errors="24" failures="0" skipped="0" time="1.085471">
+      <testsuite name="Tests\Feature\Auth\AuthenticationTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php" tests="4" assertions="0" errors="4" failures="0" skipped="0" time="0.614805">
+        <testcase name="test_login_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php" line="13" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.500058">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\AuthenticationTest::test_login_screen_can_be_rendered&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:365
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php:15</error>
+        </testcase>
+        <testcase name="test_users_can_authenticate_using_the_login_screen" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php" line="20" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.071608">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\AuthenticationTest::test_users_can_authenticate_using_the_login_screen&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:394
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php:24</error>
+        </testcase>
+        <testcase name="test_users_can_not_authenticate_with_invalid_password" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php" line="33" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.021247">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\AuthenticationTest::test_users_can_not_authenticate_with_invalid_password&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:394
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php:37</error>
+        </testcase>
+        <testcase name="test_users_can_logout" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php" line="45" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.021891">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\AuthenticationTest::test_users_can_logout&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:394
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\AuthenticationTest.php:49</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\EmailVerificationTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php" tests="3" assertions="0" errors="3" failures="0" skipped="0" time="0.071155">
+        <testcase name="test_email_verification_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php" line="16" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="0" time="0.022245">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\EmailVerificationTest::test_email_verification_screen_can_be_rendered&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:365
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php:20</error>
+        </testcase>
+        <testcase name="test_email_can_be_verified" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php" line="25" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="0" time="0.027614">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\EmailVerificationTest::test_email_can_be_verified&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:365
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php:37</error>
+        </testcase>
+        <testcase name="test_email_is_not_verified_with_invalid_hash" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php" line="44" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="0" time="0.021296">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\EmailVerificationTest::test_email_is_not_verified_with_invalid_hash&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:365
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\EmailVerificationTest.php:54</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordConfirmationTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php" tests="3" assertions="0" errors="3" failures="0" skipped="0" time="0.066867">
+        <testcase name="test_confirm_password_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php" line="13" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="0" time="0.024209">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\PasswordConfirmationTest::test_confirm_password_screen_can_be_rendered&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:365
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php:17</error>
+        </testcase>
+        <testcase name="test_password_can_be_confirmed" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php" line="22" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="0" time="0.021902">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\PasswordConfirmationTest::test_password_can_be_confirmed&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:394
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php:26</error>
+        </testcase>
+        <testcase name="test_password_is_not_confirmed_with_invalid_password" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php" line="34" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="0" time="0.020756">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\PasswordConfirmationTest::test_password_is_not_confirmed_with_invalid_password&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:394
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordConfirmationTest.php:38</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordResetTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php" tests="4" assertions="0" errors="4" failures="0" skipped="0" time="0.084986">
+        <testcase name="test_reset_password_link_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php" line="15" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.019364">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\PasswordResetTest::test_reset_password_link_screen_can_be_rendered&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:365
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php:17</error>
+        </testcase>
+        <testcase name="test_reset_password_link_can_be_requested" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php" line="22" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.024359">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\PasswordResetTest::test_reset_password_link_can_be_requested&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:394
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php:28</error>
+        </testcase>
+        <testcase name="test_reset_password_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php" line="33" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.020795">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\PasswordResetTest::test_reset_password_screen_can_be_rendered&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:394
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php:39</error>
+        </testcase>
+        <testcase name="test_password_can_be_reset_with_valid_token" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php" line="50" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.020468">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\PasswordResetTest::test_password_can_be_reset_with_valid_token&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:394
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordResetTest.php:56</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordUpdateTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordUpdateTest.php" tests="2" assertions="0" errors="2" failures="0" skipped="0" time="0.067261">
+        <testcase name="test_password_can_be_updated" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordUpdateTest.php" line="14" class="Tests\Feature\Auth\PasswordUpdateTest" classname="Tests.Feature.Auth.PasswordUpdateTest" assertions="0" time="0.023430">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\PasswordUpdateTest::test_password_can_be_updated&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:424
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordUpdateTest.php:21</error>
+        </testcase>
+        <testcase name="test_correct_password_must_be_provided_to_update_password" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordUpdateTest.php" line="34" class="Tests\Feature\Auth\PasswordUpdateTest" classname="Tests.Feature.Auth.PasswordUpdateTest" assertions="0" time="0.043831">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\PasswordUpdateTest::test_correct_password_must_be_provided_to_update_password&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:424
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\PasswordUpdateTest.php:41</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\RegistrationTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\RegistrationTest.php" tests="2" assertions="0" errors="2" failures="0" skipped="0" time="0.037753">
+        <testcase name="test_registration_screen_can_be_rendered" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\RegistrationTest.php" line="12" class="Tests\Feature\Auth\RegistrationTest" classname="Tests.Feature.Auth.RegistrationTest" assertions="0" time="0.019153">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\RegistrationTest::test_registration_screen_can_be_rendered&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:365
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\RegistrationTest.php:14</error>
+        </testcase>
+        <testcase name="test_new_users_can_register" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\RegistrationTest.php" line="19" class="Tests\Feature\Auth\RegistrationTest" classname="Tests.Feature.Auth.RegistrationTest" assertions="0" time="0.018600">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\Auth\RegistrationTest::test_new_users_can_register&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:394
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\Auth\RegistrationTest.php:21</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\ExampleTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ExampleTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.022969">
+        <testcase name="test_the_application_returns_a_successful_response" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ExampleTest.php" line="13" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" assertions="0" time="0.022969">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\ExampleTest::test_the_application_returns_a_successful_response&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:365
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ExampleTest.php:15</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\ProfileTest" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" tests="5" assertions="0" errors="5" failures="0" skipped="0" time="0.119676">
+        <testcase name="test_profile_page_is_displayed" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="13" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.024878">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\ProfileTest::test_profile_page_is_displayed&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:365
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php:19</error>
+        </testcase>
+        <testcase name="test_profile_information_can_be_updated" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="24" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.022926">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\ProfileTest::test_profile_information_can_be_updated&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:454
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php:30</error>
+        </testcase>
+        <testcase name="test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="46" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.022069">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\ProfileTest::test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:454
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php:52</error>
+        </testcase>
+        <testcase name="test_user_can_delete_their_account" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="64" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.023257">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\ProfileTest::test_user_can_delete_their_account&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:484
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php:70</error>
+        </testcase>
+        <testcase name="test_correct_password_must_be_provided_to_delete_account" file="C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php" line="82" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.026547">
+          <error type="Illuminate\Encryption\MissingAppKeyException">Tests\Feature\ProfileTest::test_correct_password_must_be_provided_to_delete_account&#13;
+Illuminate\Encryption\MissingAppKeyException: No application encryption key has been specified.
+&#13;
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:83
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Support\helpers.php:380
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:81
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:64
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Encryption\EncryptionServiceProvider.php:32
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:931
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1112
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:1022
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:973
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:815
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1046
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Container\Container.php:751
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1028
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:258
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:216
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:608
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\MakesHttpRequests.php:484
+C:\xampp\htdocs\reciclaje\Reciclaje_Practica\tests\Feature\ProfileTest.php:89</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
